@@ -1,0 +1,476 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Oxygen;
+    background: #EFEFEF;
+}
+
+table td.bolder
+{
+    font-weight: bolder;
+}
+
+#cetakKartuRegistrasi
+{
+    background-color: white;
+}
+
+#cetakKartuRegistrasi table, #cetakKartuRegistrasi td
+{
+    vertical-align: top;
+}
+
+#titleKartuRegistrasi
+{
+    border-bottom: 3px solid #ddd;
+}
+
+#displayPicture
+{
+    width: 120px;
+    height: 150px;
+    background: url("../images/nerdlove.jpg") 0% 0%/contain no-repeat transparent;
+    border: 1px solid orange;
+}
+
+#page
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #f2f2f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2f2f2 0%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f2f2f2 0%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    border: 1px solid #C9E0ED;
+}
+
+#header
+{
+    margin-bottom: 20px;
+    padding: 0;
+    border-top: 1px solid #C9E0ED;
+    height: 110px;
+    /*background: url("../images/header3.png") 0% 0%/cover no-repeat transparent;*/
+}
+
+#content
+{
+    padding: 20px;
+}
+#note
+{
+        color: red;
+	font-style: italic;
+}
+
+#loginContainer, #registerFormContainer, #reg
+{
+    margin: auto;
+    /*box-shadow: 0px 0px 7px #888;*/
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+#loginContainer
+{
+    width: 400px;
+    padding: 10px 0;
+
+}
+
+#reg
+{
+    width: 800px;
+    padding: 10px 0;
+
+}
+
+#registerFormContainer
+{
+    width: 700px;
+    padding: 20px;
+}
+
+#registerSuccessMessage
+{
+    color: white;
+    padding: 5px;
+    background-color: #fb6d10;
+    margin-bottom: 10px;
+}
+
+#registerSuccessMessage p 
+{
+    margin: 0;
+}
+
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+}
+
+#sidebarRight
+{
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid orange;
+    margin: 20px 0;
+    height: 200px;
+}
+
+#summaryProfile
+{
+    width: 60%;
+}
+
+#footer
+{
+    /*padding: 10px;*/
+    /*background: url("../images/footer2.png") 0% 0%/cover no-repeat transparent;*/
+    background-color: #f2f2f2;
+    height: 80px;
+    margin-top: 1px;
+    font-size: 0.8em;
+    text-align: right;
+    border-top: 1px solid #C9E0ED;
+    padding: 10px 10px;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+}
+
+#mainmenu, #mainmenu_daftarbeasiswa, #mainmenu_dashboard, #menu-top
+{
+    margin-top: 20px;
+}
+
+#mainmenutop
+{
+    margin: 10px 0 0 10px;
+    height: 28px;
+}
+
+#mainmenu, #mainmenutop, #mainmenu_daftarbeasiswa
+{
+    background: transparent;
+}
+
+#mainmenu ul, #mainmenu_daftarbeasiswa ul, #mainmenu_dashboard ul, #menu-top ul
+{
+    /*padding:6px 20px 5px 20px;*/ 
+    margin:auto;
+    padding-left: 0;
+}
+
+#mainmenutop ul, #mainmenu_dashboard ul
+{
+    padding-left: 0;
+}
+
+#mainmenu ul li, #mainmenutop ul li, #mainmenu_daftarbeasiswa ul li, #mainmenu_dashboard ul li, #menu-top ul li
+{
+    display: inline;
+}
+
+#menu-top ul li:hover > ul {
+    display: block;
+}
+
+#mainmenu ul li a, #mainmenutop ul li a, #menu-top ul li a, #menu-top ul li ul li a, #dropdown_assign
+{
+    color:#ffffff;
+    background-color:orange;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:8px 13px;
+}
+
+#menu-top ul li ul { 
+    display: none; 
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 215px;
+}
+
+#menu-top ul li ul li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a, #mainmenutop ul li a:hover, #mainmenutop ul li.active a, .button_red:hover, #menu-top ul li a:hover, #menu-top ul li.active a, #menu-top ul li ul li a:hover, #menu-top ul li ul li.active a, #dropdown_assign:hover 
+{
+    color: orange;
+    background-color:#FFF;
+    text-decoration:none;
+    border-bottom: 1px solid orange;
+}
+
+#dropdown_assign {
+    margin-right: 2px;
+}
+
+#dropdown_assign:hover {
+    cursor: pointer;
+}
+
+#mainmenu_daftarbeasiswa ul li a, #mainmenu_dashboard ul li a
+{
+    color:black;
+    font-size:10px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 3px;
+}
+
+#mainmenu_daftarbeasiswa ul li a:hover, #mainmenu_daftarbeasiswa ul li.active a, #mainmenu_dashboard ul li a:hover, #mainmenu_dashboard ul li.active a
+{
+    color: orange;
+    text-decoration:none;
+    border-bottom: 1px solid orange;
+}
+
+#mainmenu_dashboard ul li a 
+{
+    font-size: 13px !important;
+}
+
+#registerLogin
+{
+    float: right;
+    margin: 2px 50px 0 0;
+}
+
+#welcomeMessage
+{
+    margin: auto;
+    width: 250px;
+    text-align: center;
+}
+
+#welcomeMessage h1
+{
+    font-weight: 700;
+}
+
+#welcomeQuote
+{
+    width: 60%;
+    background-color: #f2f2f2;
+    margin: auto;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+#welcomeQuote span
+{
+    color: orange;
+}
+
+#welcomeQuote h3
+{
+    color: orange;
+    font-style: italic;
+}
+
+#wrapper
+{
+    width: 820px;
+    margin: auto;
+
+}
+
+#wrapperadmin
+{
+    width: 90%;
+    margin: auto;
+
+}
+
+div.compose
+{
+    background-color: #f2f2f2;
+}
+
+div.reply
+{
+    background-color: white;
+}
+
+div.reply, div.compose
+{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #888;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #fecf00;
+    border-left: 5px solid orange;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#f2f2f2;
+    border: 1px solid orange;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #0066A4;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #0066A4;
+}
+
+.operations li a:hover
+{
+    background: #80CFFF;
+}
+
+.button_red
+{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px 10px;
+    padding: 8px 13px;
+    background-color: red;
+    text-decoration: none;
+}
